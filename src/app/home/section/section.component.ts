@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
+  articles: number = 1;
+
   constructor() { }
 
   ngOnInit() {
